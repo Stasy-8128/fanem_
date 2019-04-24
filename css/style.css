@@ -1085,6 +1085,121 @@ body {
   outline: none;
 }
 
+.h2-title{
+  font-size: 25px;
+  border-bottom: 1px solid #38002b;
+}
+
+#form-registrarion{
+  margin-top: 30px;
+}
+
+#form-registrarion li{
+  margin-top: 10px;
+}
+
+#form-registrarion > li > input{
+  height: 30px;
+  width: 320px;
+  font: 17px;
+  margin-left: 200px;
+  padding-left: 5px;
+  color: black;
+  border-left: 1px solid #ABABAB;
+  border-top: 1px solid #ABABAB;
+
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+#form-registrarion > li > label{
+  position: absolute;
+  margin-top: 7px;
+}
+.star{
+  color: red;
+  position: absolute;
+  margin-left: 188px;
+  margin-top: 10px;
+}
+
+#genpas{
+  font: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 5px;
+}
+#genpas:hover{
+ text-decoration: none;
+}
+
+#form-registrarion > li > input#reg_login,
+#form-registrarion > li > input#reg_pass{
+  height: 30px;
+  width: 200px;
+  font: 17px;
+  margin-left: 200px;
+  padding-left: 5px;
+  color: black;
+  border-left: 1px solid #ABABAB;
+  border-top: 1px solid #ABABAB;
+
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+#form-registrarion > li > input:focus,
+#form-registrarion > li > input#reg_login:focus,
+#form-registrarion > li > input#reg_pass:focus,
+#block-captcha > input#reg_captcha:focus{
+  border: 1px solid #C4E1EB;
+}
+
+#block-captcha{
+  position: absolute;
+  margin-left: 200px;
+  height: 70px;
+}
+#block-captcha > input#reg_captcha{
+  height: 30px;
+  width: 100px;
+  font: 19px;
+  margin-left: 15px;
+  padding-left: 5px;
+  margin-top: 8px;
+  color: black;
+  border-left: 1px solid #ABABAB;
+  border-top: 1px solid #ABABAB;
+
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+#block-captcha img{
+  float: left;
+}
+
+#block-captcha p{
+  margin-top: 0px;
+  font: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#block-captcha p:hover{
+  text-decoration: none;
+}
+
+#form_submit{
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  height: 33px;
+  cursor: pointer;
+  margin-top: -15px;
+  margin-right: 15px;
+}
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {

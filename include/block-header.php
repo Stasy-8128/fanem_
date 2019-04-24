@@ -24,7 +24,7 @@
 						<input type="submit" id="button-search" value="" />
 					</form>
 				</div>	
-					<p class="reg_box"><a href="" class="sign_in">Sign in</a><a href="" class="sign_up">Sign up</a></p>
+					<p class="reg_box"><a href="registration.php" class="sign_in">Sign in</a><a href="" class="sign_up">Sign up</a></p>
 				</div></div></div>
 		<div id="menu">
 		<div class="container">
